@@ -49,7 +49,7 @@ The design focuses on:
 
 ```
 
-```
+
          ┌─────────────────────────────┐
          │  K-Prefix Partition (Adaptive) │
          └───────────────┬─────────────┘
@@ -61,7 +61,7 @@ The design focuses on:
                          │
  ┌───────────────────────┼───────────────────────┐
  │                       │                       │
-```
+
 
 Phase A                Phase B                 Phase C
 Existence Filter   ED-1 Generate/Verify   Global Total Ordering
@@ -70,7 +70,7 @@ Existence Filter   ED-1 Generate/Verify   Global Total Ordering
 └───────────────────────┴───────────────────────┘
 Output
 
-```
+'''
 
 ---
 

@@ -157,7 +157,7 @@ Implementation and scripts are private due to course policy.
 ---
 
 ## 📜 License (documentation only)
-Apache License 2.0
+Apache License 2.0**
 This public summary is shared for portfolio use.
 If you reuse figures or text, please cite the project.
 (The implementation is not open-sourced.)

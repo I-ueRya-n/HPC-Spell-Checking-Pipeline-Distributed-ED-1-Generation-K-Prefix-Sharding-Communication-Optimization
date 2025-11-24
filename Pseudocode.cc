@@ -50,7 +50,7 @@ Output:
      bloom_global ← null
 ```
 
-(對應你的 prefix 分桶、2/p cap、local prefix index、global Bloom OR-reduce。)
+
 
 ---
 
@@ -79,7 +79,6 @@ Output:
 6. Return M
 ```
 
-(對應 Phase A 的兩次 Alltoallv + exact lookup。)
 
 ---
 
@@ -114,7 +113,6 @@ Output:
 6. Return Pairs_B
 ```
 
-(對應 ED1 生成、Bloom 先過濾、再用 Alltoallv 去 owner 驗證、回傳 hits。)
 
 ---
 
@@ -151,8 +149,6 @@ Output:
 6. Write ordered lines:
      "x: c1 c2 c3 ..."
 ```
-
-(對應 Phase C 的 group/dedup/sort + global ordering key。)
 
 ---
 
